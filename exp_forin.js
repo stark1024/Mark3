@@ -16,6 +16,6 @@ var list = function (object){
         console.log(key);   
     }
 }
-//this will list all the elements/keys which directly relate to the object
+//this will list all the properties of object we enter into the function, as an arguement
 //here this will print bill and steve (no caps.....right!)
 list(friends);
